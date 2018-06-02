@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   sentence1.each do |word|
     sentence3 << word.reverse
   end
-  sentence3
+  sentence1 = sentence3.to_s
 end
 
 # def reverse_each_word(sentence)
