@@ -13,8 +13,8 @@ end
 def reverse_each_word(sentence)
   sentence1 = sentence.split(" ")
   sentence1.collect do |word|
-    sentence4 << word.reverse
+    sentence3 << word.reverse
     binding.pry
-    sentence4.join(" ")
+    sentence3.join(" ")
   end
 end
