@@ -14,8 +14,8 @@ def reverse_each_word(sentence)
   sentence1 = sentence.split(" ")
   sentence4 = []
   sentence1.collect do |word|
-    sentence4 << word.reverse
+    word.reverse
     binding.pry
-    sentence4.join(" ")
+    sentence1.join(" ")
   end
 end
