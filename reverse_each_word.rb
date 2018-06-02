@@ -8,6 +8,9 @@ def reverse_each_word(sentence)
   sentence1
 end
 
+def reverse_each_word(sentence)
+end
+
 # def reverse_each_word(sentence)
 #   new_sentence = []
 #   sentence.each do |word|
