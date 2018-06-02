@@ -11,11 +11,11 @@ def reverse_each_word(sentence)
 end
 
 def reverse_each_word(sentence
-  sentence3 = []
+  sentence4 = []
   sentence1 = sentence.split(" ")
   sentence1.collect do |word|
-    sentence3 << word.reverse
+    sentence4 << word.reverse
     binding.pry
-    sentence3.join(" ")
+    sentence4.join(" ")
   end
 end
