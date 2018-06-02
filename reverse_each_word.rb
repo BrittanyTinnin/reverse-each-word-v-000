@@ -8,11 +8,11 @@ def reverse_each_word(sentence)
   sentence1
 end
 
-def reverse_each_word(sentence)
-  # sentence.map do |word|
-  #
-  # end
-end
+# def reverse_each_word(sentence)
+#   sentence.map do |word|
+#   
+#   end
+# end
 # def reverse_each_word(sentence)
 #   new_sentence = []
 #   sentence.each do |word|
