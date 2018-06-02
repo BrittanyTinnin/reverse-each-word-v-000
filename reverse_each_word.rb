@@ -17,5 +17,4 @@ def reverse_each_word(sentence)
     sentence4 << word.reverse
     binding.pry
     sentence4.join(" ")
-  end
 end
