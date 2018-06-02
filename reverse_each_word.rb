@@ -16,6 +16,6 @@ def reverse_each_word(sentence)
   binding.pry
   sentence1.collect do |word|
     sentence4 << word.reverse
-    sentence4.join(" ")
   end
+  sentence4.join(" ")
 end
